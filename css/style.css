@@ -26,7 +26,7 @@ body{
 
 .logo img{
   height: 50px;
-  border-right: 1px solid grey;
+  border-right: 1px solid lightgrey;
   padding-right: 15px;
 }
 
@@ -150,5 +150,9 @@ aside{
 
 footer{
   min-height: 40px;
-  margin-top: 3px;
+  margin-top: 50px;
+}
+
+footer p{
+  text-align: center;
 }
