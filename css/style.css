@@ -22,9 +22,27 @@
 }
 
 .logo img{
-  height: 25px;
+  height: 50px;
   border-right: 1px solid grey;
+  padding-right: 15px;
+}
+
+nav li{
+  list-style: none;
+  display: inline-block;
+  padding-top: 25px;
   padding-right: 5px;
+}
+
+nav a{
+  color: grey;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+}
+
+nav a:hover, nav a:active{
+  color: orange;
 }
 
 .jumbotron{
