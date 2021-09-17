@@ -18,8 +18,13 @@
 .header-top{
   min-height: 100px;
   background-color: rgb(229, 121, 230);
-  margin-bottom: 20px;
-  
+  margin-bottom: 20px;  
+}
+
+.logo img{
+  height: 25px;
+  border-right: 1px solid grey;
+  padding-right: 5px;
 }
 
 .jumbotron{
