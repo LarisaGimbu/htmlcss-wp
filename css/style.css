@@ -46,9 +46,39 @@ nav a:hover, nav a:active{
 }
 
 .jumbotron{
-  min-height: 200px;
-  background-color: rgb(225, 214, 122);
+  height: 400px;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   margin-bottom: 20px;
+  border-radius: 7px;
+}
+
+.jumbo-text{
+  height: 100%;
+  background-color: #00000042; 
+  padding-top: 250px;
+  padding-bottom: 50px;
+  border-radius: 7px;
+
+}
+
+.jumbotron p{
+  width: 60%;
+  padding-left: 40px;
+  color: white;
+}
+
+.jumbo-title{
+  font-size: 30px;
+}
+
+.jumbo-subtitle{
+  font-size: 15px;
+}
+
+.jumbo-subtitle::after{
+  content: '...';
 }
 
 .main-top{
